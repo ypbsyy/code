@@ -8,7 +8,7 @@ sudo ./configure
 sudo make   
 sudo make install   
 
-or easy isntall：
+or easy isntall：    
 sudo apt-get install libpcap-dev
     
   
