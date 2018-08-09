@@ -12,5 +12,11 @@ or easy isntall：
 sudo apt-get install libpcap-dev
     
   
-2.compile    
+2.compile  dns_getip.c  
 gcc dns_getip.c -lpcap -o dns_getip  
+
+3.compile test_gethost.c, get host ip by url with calling gethostbyname
+gcc -o test_gethost test_gethost.c
+
+
+
